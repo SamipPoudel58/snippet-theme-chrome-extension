@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Code Theme",
+  "version": "0.1.0",
+  "description": "Change theme of code snippets in Notion & Stack Overflow",
+  "author": "Samip Poudel",
+  "content_scripts": [
+    {
+      "matches": ["*://*.notion.so/*", "*://*.stackoverflow.com/*"],
+      "js": ["script.js"],
+      "css": ["styles.css"]
+    }
+  ]
+}

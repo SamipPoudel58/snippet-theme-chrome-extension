@@ -1,0 +1,86 @@
+.notion-code-block,
+.s-code-block {
+  font-family: "Fira Code", Consolas, Inconsolata, Monaco, "Courier New",
+    Courier, monospace !important;
+  background-color: #1f2937 !important;
+  color: #fff !important;
+}
+
+/* For Notion */
+
+.notion-code-block .token.keyword {
+  color: rgba(34, 211, 238, 1) !important;
+}
+
+.notion-code-block .token.string,
+.token.builtin {
+  color: #bef264 !important;
+}
+.notion-code-block .token.function {
+  color: #e879f9 !important;
+}
+.notion-code-block .token.constant {
+  color: #fff !important;
+}
+.notion-code-block .token.punctuation {
+  color: #bae6fd !important;
+}
+
+.notion-code-block .token.comment {
+  color: #9ca3af !important;
+}
+.notion-code-block .token.class-name {
+  color: #ffffb6 !important;
+}
+.notion-code-block .token.number,
+.token.boolean {
+  color: #ff73fd !important;
+}
+.notion-code-block .token.operator {
+  color: #ededed !important;
+  background-color: transparent !important;
+}
+
+/* For StacOverflow */
+
+.hljs-keyword,
+.hljs-type {
+  color: rgba(34, 211, 238, 1) !important;
+}
+
+.hljs-string,
+.hljs-built_in {
+  color: #bef264 !important;
+}
+.hljs-title.function_,
+.hljs-name {
+  color: #e879f9 !important;
+}
+
+.hljs-variable.language_ {
+  color: #fff !important;
+}
+
+.hljs-constant,
+.hljs-attr {
+  color: #fff !important;
+}
+.hljs-punctuation {
+  color: #bae6fd !important;
+}
+
+.hljs-comment {
+  color: #9ca3af !important;
+}
+
+.hljs-title.class_ {
+  color: #ffffb6 !important;
+}
+.hljs-number,
+.hljs-boolean {
+  color: #ff73fd !important;
+}
+.hljs-operator {
+  color: #ededed !important;
+  background-color: transparent !important;
+}
